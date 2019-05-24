@@ -1,0 +1,95 @@
+/* This is a stylesheet */
+
+/*@import();*/
+@import url("reset.css");
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,800');
+
+* {box-sizing: border-box;}
+
+body{
+    background: azure;
+    font-size: 17px;
+    font-family: "Open Sans", sans-serif;
+    color: 000;
+}  
+
+a{
+    color: blue;
+    text-decoration: none;
+}
+a:visited{
+    color: purple;
+}
+a:hover{
+    color: darkred;
+    text-decoration: underline;
+}
+
+header{
+/*    width: 100px;*/
+    position: relative;
+    box-sizing: border-box;
+    
+}
+
+nav ul li{
+    display: inline-block;
+    border: 1px solid black;
+    padding: 20px;
+}
+    nav ul li a{
+        display: inline-block;
+}
+
+
+main{
+    width: 960px;
+    border: 2px solid black;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+#firststory img{
+    width: 40%;
+    float: right;
+}
+
+#fourthstory img{
+    width: 100%;
+    padding: 20px;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 200%;
+    margin: 20px;
+    display: inline-block;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 200%;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid black;
+    display: inline-block;
+    clear: both;
+}
+
+h3{
+    font-weight: bold;
+    font-size: 125%;
+}
+
+a{
+/*     border: 2px solid black;
+    
+use # to select id to style eg #firststory*/
+}
+
+/*
+p{
+
+ class selectors have a dot
+}*/
+
